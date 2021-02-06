@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "test_Illinskykh",
   "main": "app.js",
+  "homepage": "https://eilinskih.github.io/event-planner",
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production",
-    "deploy": "gh-pages -d public"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
 
   },
   "keywords": [
