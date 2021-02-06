@@ -10,9 +10,7 @@ module.exports = {
     },
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'public'),
-        publicPath: "/test_task_ciklum/",
-
+        path: path.resolve(__dirname, 'public')
     },
     devServer: {
         port: 3000
